@@ -4,23 +4,39 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Study in Germany</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="style.css" />
+  
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS Animation -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Dark Mode Toggle -->
+  <button id="mode-toggle">🌙 Toggle Mode</button>
+
+  <!-- Overlay Intro -->
   <div class="overlay">
     <h1 class="overlay-title">Welcome to Your Future</h1>
   </div>
 
+  <!-- 🖼️ Hero Section with Background Image -->
   <header class="hero" data-aos="fade">
-    <div class="container">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
       <h1 data-aos="fade-down" data-aos-delay="400">Study in Germany</h1>
       <p class="tagline" data-aos="fade-up" data-aos-delay="600">Your Gateway to a World-Class Education!</p>
     </div>
   </header>
 
+  <!-- Main Content -->
   <main class="container">
     <section id="intro" data-aos="fade-up" data-aos-delay="300">
       <h2>Proposal: End-to-End Student Support Services</h2>
@@ -30,19 +46,21 @@
       <p>We offer a complete admission-to-accommodation service designed specifically for Indian students looking to study in Germany. With our experience and personalized approach, we guide you every step of the way — from selecting the right course to settling into your new home in Germany!</p>
     </section>
 
+    <!-- 🛠️ Services -->
     <section id="services" data-aos="fade-up" data-aos-delay="300">
       <h2>✅ Our End-to-End Service Includes</h2>
       <div class="cards">
-        <div class="card">1⃣ <strong>Course & University Selection</strong><br>Based on your profile and preferences</div>
-        <div class="card">2⃣ <strong>Admission Application Support</strong><br>We help prepare and submit applications</div>
-        <div class="card">3⃣ <strong>Blocked Account Setup</strong><br>Deutsche Bank, Expatrio, Fintiba</div>
-        <div class="card">4⃣ <strong>APS & Visa Documentation</strong><br>Visa file prep & interview support</div>
-        <div class="card">5⃣ <strong>Accommodation Support</strong><br>Dorms, private, shared booking</div>
-        <div class="card">6⃣ <strong>Travel & Pickup</strong><br>Flights, packing, airport pickup</div>
-        <div class="card">7⃣ <strong>Post-Arrival Assistance</strong><br>City registration, health insurance</div>
+        <div class="card"><i class="fas fa-university fa-2x"></i><br><strong>Course & University Selection</strong><br>Based on your profile and preferences</div>
+        <div class="card"><i class="fas fa-file-alt fa-2x"></i><br><strong>Admission Application Support</strong><br>We help prepare and submit applications</div>
+        <div class="card"><i class="fas fa-piggy-bank fa-2x"></i><br><strong>Blocked Account Setup</strong><br>Deutsche Bank, Expatrio, Fintiba</div>
+        <div class="card"><i class="fas fa-passport fa-2x"></i><br><strong>APS & Visa Documentation</strong><br>Visa file prep & interview support</div>
+        <div class="card"><i class="fas fa-home fa-2x"></i><br><strong>Accommodation Support</strong><br>Dorms, private, shared booking</div>
+        <div class="card"><i class="fas fa-plane-departure fa-2x"></i><br><strong>Travel & Pickup</strong><br>Flights, packing, airport pickup</div>
+        <div class="card"><i class="fas fa-handshake fa-2x"></i><br><strong>Post-Arrival Assistance</strong><br>City registration, health insurance</div>
       </div>
     </section>
 
+    <!-- 💼 Why Choose Us -->
     <section id="why-choose" data-aos="fade-up" data-aos-delay="300">
       <h2>💼 Why Choose Us?</h2>
       <ul>
@@ -55,18 +73,22 @@
       Get your profile reviewed & receive a personalized list of universities!</p>
     </section>
 
+    <!-- 👏 Testimonials -->
     <section id="testimonial" data-aos="fade-up" data-aos-delay="300">
       <h2>👏 Success Stories & Testimonials</h2>
       <blockquote>
+        <img src="https://source.unsplash.com/80x80/?student,portrait" style="border-radius: 50%; float: left; margin-right: 15px;">
         <p>"Thanks to the team, I got into my dream university in Berlin. Their support during the visa process was exceptional!"</p>
         <cite>— Priya Mehta, M.Sc. Student</cite>
       </blockquote>
       <blockquote>
+        <img src="https://source.unsplash.com/80x80/?indian,boy" style="border-radius: 50%; float: left; margin-right: 15px;">
         <p>"Very friendly and clear process. I landed in Germany with accommodation and support already waiting! Highly recommended."</p>
         <cite>— Rajiv Sharma, Bachelor Student</cite>
       </blockquote>
     </section>
 
+    <!-- 🎥 Video -->
     <section id="video" data-aos="zoom-in-up" data-aos-delay="300">
       <h2>🎥 Student Journey Video</h2>
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;">
@@ -74,26 +96,36 @@
       </div>
     </section>
 
+    <!-- 📩 Contact -->
     <section id="contact" data-aos="fade-up" data-aos-delay="300">
       <h2>📩 Contact Us</h2>
       <p><strong>Loveleen Singh Sahota</strong></p>
       <p><i class="fas fa-envelope"></i> <a href="mailto:loveleensinghsahota@gmail.com">loveleensinghsahota@gmail.com</a></p>
-      <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/+4917661121582">+91-9736377669</a> / <a href="https://wa.me/+4917661121582">+49-17661121582</a></p>
+      <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919736377669">+91-9736377669</a> / <a href="https://wa.me/4917661121582">+49-17661121582</a></p>
       <p><i class="fab fa-instagram"></i> <a href="https://instagram.com/autodidact_123">@autodidact_123</a></p>
       <p><i class="fas fa-globe"></i> <a href="http://www.yourwebsite.com">www.yourwebsite.com</a></p>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Study in Germany | All rights reserved</p>
   </footer>
 
+  <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({ duration: 1200 });
+
     window.addEventListener('load', () => {
       document.querySelector('.overlay').classList.add('fade-out');
     });
+
+    document.getElementById('mode-toggle').onclick = () => {
+      document.body.classList.toggle('dark-mode');
+      document.getElementById('mode-toggle').textContent =
+        document.body.classList.contains('dark-mode') ? '☀️ Light Mode' : '🌙 Toggle Mode';
+    };
   </script>
 </body>
 </html>
